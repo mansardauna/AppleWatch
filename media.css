@@ -1,6 +1,7 @@
 @media screen and (min-width: 375px) and (max-width: 667px) {
   body {
     overflow-x: hidden;
+    position: absolute;
   }
 
   .button {
@@ -109,7 +110,7 @@
   }
 
   .footer {
-    width: 100vw;
+    width: 110vw;
     height: 16rem;
     background-size: contain;
   }
