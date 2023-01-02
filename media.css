@@ -1,4 +1,8 @@
 @media screen and (min-width: 375px) and (max-width: 667px) {
+  body {
+    overflow-y: hidden;
+  }
+
   .button {
     width: 100px;
     font-size: 8px;
@@ -105,7 +109,7 @@
   }
 
   .footer {
-    width: 110vw;
+    width: 100vw;
     height: 16rem;
     background-size: contain;
   }
