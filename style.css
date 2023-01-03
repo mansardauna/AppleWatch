@@ -32,7 +32,6 @@ body {
 .navbar {
   width: 75vw;
   height: 2rem;
-  padding: 1rem;
   margin: 0rem 0rem 1rem;
   color: black;
   font-size: 12px;
@@ -183,7 +182,7 @@ input:focus {
   background-image: url(./runners.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   color: white;
   height: 40rem;
   margin: 3rem 0 0 0;

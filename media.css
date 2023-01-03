@@ -1,8 +1,5 @@
-@media screen and (min-width: 375px) and (max-width: 667px) {
-  body {
-    overflow-x: hidden;
-    position: absolute;
-  }
+@media screen and (min-width:320px) and (max-width: 667px) {
+  body {}
 
   .button {
     width: 100px;
@@ -17,9 +14,8 @@
   .navbar {
     margin: 0;
     padding: 1rem;
-    width: 100vw;
+    width: 100%;
     height: .5rem;
-
     box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
     -webkit-box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
     -moz-box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
@@ -37,12 +33,16 @@
 
   .container {
     display: flex;
-    width: 100vw;
+    width: 135vw;
     justify-content: space-between;
     align-items: center;
+    overflow-x: hidden;
+
   }
 
-
+  .container .card {
+    margin-left: 3rem;
+  }
 
   .card {
     width: 10rem;
@@ -64,7 +64,7 @@
   .container .watch {
     width: 20rem;
     height: 20rem;
-    margin-left: 5rem;
+    margin-left: 2rem;
 
   }
 
@@ -103,16 +103,16 @@
 
 
   .preview {
-    width: 7rem;
-    height: 10rem;
-    margin: 8rem 2rem;
+    width: 15rem;
+    height: 15rem;
+    margin: 6rem 2rem;
 
   }
 
   .footer {
-    width: 110vw;
+    width: 100%;
     height: 16rem;
-    background-size: contain;
+    background-size: cover;
   }
 
   .footer .left {
