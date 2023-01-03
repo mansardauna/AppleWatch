@@ -1,4 +1,4 @@
-@media screen and (min-width:320px) and (max-width: 667px) {
+@media screen and (min-width:320px) and (max-width:667px) {
   body {}
 
   .button {
@@ -49,6 +49,7 @@
     margin-left: 10px;
   }
 
+
   .mid-col-2 .card {
     margin-left: 2rem;
   }
@@ -62,8 +63,8 @@
   }
 
   .container .watch {
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 30rem;
     margin-left: 2rem;
 
   }
@@ -85,7 +86,7 @@
 
   .mid {
     display: block;
-    margin-left: 3rem;
+    margin: auto;
   }
 
   .mid .detail {
@@ -103,9 +104,9 @@
 
 
   .preview {
-    width: 15rem;
-    height: 15rem;
-    margin: 6rem 2rem;
+    width: 20rem;
+    height: 20rem;
+    margin: 4rem 2rem;
 
   }
 
