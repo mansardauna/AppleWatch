@@ -37,7 +37,7 @@
 
   .container {
     display: flex;
-    width: 100vw;
+    width: 100%;
     background-size: 30rem;
     background-position: right;
     background-position-x: 18rem;
@@ -54,12 +54,13 @@
 
   .card {
     width: 10rem;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 
 
   .mid-col-2 .card {
     margin-left: 2rem;
+    margin-right: 3rem;
   }
 
 
@@ -102,25 +103,21 @@
   }
 
   .mid-col-2 {
-    width: 100vw;
+    width: 90%;
 
-  }
-
-  .mid-col-2 .card {
-    justify-content: center;
   }
 
 
   .preview {
-    width: 20rem;
-    height: 20rem;
-    margin: 4rem 2rem;
+    width: 30%;
+    height: 50%;
+    margin: 0rem 0rem;
 
   }
 
   .footer {
     width: 100%;
-    height: 35vh;
+    height: 45vh;
     background-size: cover;
   }
 
