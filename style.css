@@ -30,9 +30,8 @@ body {
 }
 
 .navbar {
-  width: 75vw;
+  width: 90vw;
   height: 2rem;
-  margin: 0rem 0rem 1rem;
   color: black;
   font-size: 12px;
   font-weight: 500;
@@ -40,10 +39,11 @@ body {
   -webkit-box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
   -moz-box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
   font-weight: 800;
-  padding: .4rem 10rem;
+  padding: .5rem;
+  padding-left: 10rem;
   position: fixed;
   z-index: 5;
-  background-color: rgb(237, 236, 235);
+  background-color: white
 }
 
 
@@ -57,7 +57,12 @@ body {
 }
 
 .pages {
-  width: 30rem;
+  /* width: 30rem; */
+}
+
+.logoname {
+  width: auto;
+  height: 3rem;
 }
 
 .about:hover {
@@ -68,13 +73,52 @@ input:focus {
   outline: none;
 }
 
+.menu {
+  position: relative;
+  margin-right: 3rem;
+}
+
+.toggle {
+  width: 5rem;
+
+}
+
 .about {
   font-weight: 300;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid gray;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#active {
+  display: none;
+  height: 2 rem;
+  width: 8rem;
+  margin-top: 1.5rem;
+  position: absolute;
+  background-color: rgb(237, 236, 235);
+  box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
+  padding: 1rem;
+  right: 0;
+  margin-right: 5rem;
+
 }
 
 .container {
-  width: 118vw;
-  margin: 3rem 0 0 0rem;
+  background-image: url(./watches.jpg);
+  background-size: 35rem;
+  background-position: right;
+  background-position-x: 125%;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 70vh;
+  margin-top: 5rem;
   border-bottom: 1px solid lightgray;
 }
 
@@ -85,7 +129,7 @@ input:focus {
 
 .mid-col-2 .card {
   margin-left: 10rem;
-  width: 35rem;
+  width: 60vw;
 }
 
 .watch {
@@ -125,12 +169,12 @@ input:focus {
 .button:hover {
   background-color: rgb(89, 42, 42);
   ;
-  padding: .68rem;
+  padding: .7rem;
 }
 
 .mid {
-  width: 70vw;
-  margin: 2rem 10rem 2rem;
+  /* width: 70vw; */
+  margin: 2rem 10rem;
 }
 
 .break {
@@ -175,7 +219,7 @@ input:focus {
 .preview {
   width: 20rem;
   height: 30rem;
-  margin: 2rem 15rem 0 0;
+  margin: 2rem 0rem;
 }
 
 .footer {
@@ -212,8 +256,8 @@ input:focus {
 
 .left {
   right: 0;
-  margin: 12rem 35rem 0;
   position: absolute;
+  padding: 15rem 20rem 0 0;
 }
 
 .left .sideline {

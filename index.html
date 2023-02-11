@@ -8,16 +8,33 @@
   <title>AppleWatch</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./media.css">
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("active");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 </head>
 
 <body>
   <div class="navbar flex space">
-    <img src="./logo.svg" alt="" class="pointer">
-    <div class="pages flex space">
-      <div class="about pointer">About</div>
-      <div class="about pointer">Offers</div>
-      <div class="about pointer">Services</div>
-      <input type="text" placeholder="How can we help">
+    <div class="brand">
+      <img src="./logo.svg" alt="" class="pointer">
+      <img src="./download (1).png" alt="" class="logoname">
+    </div>
+    <div class="toggle flex">
+      <div class="pages space" id="active">
+        <div class="about pointer">About</div>
+        <div class="about pointer">Offers</div>
+        <div class="about pointer">Services</div>
+        <input type="text" placeholder="How can we help">
+      </div>
+      <img src="./menu.svg" class="menu pointer" onclick="myFunction()" alt="">
     </div>
   </div>
 
@@ -25,7 +42,8 @@
     <div class="card">
       <span id="freedom">Freedom calls.</span>
       <div class="flex ">
-        <div class="sideline">Answer a call from your surfboard. Ask Siri to send a message. steam your favorite song on
+        <div class="sideline">Answer a call from your surfboard. Ask Siri to send a message. steam your favorite song
+          on
           your run. And do it while
           leaving your behind. Introducing Apple watch series 3
           with cellular. Now you have the freedom to go with just
@@ -35,7 +53,7 @@
       </div>
       <div class="button pointer">WATCH THE KEYNOTE</div>
     </div>
-    <img src="./watches.jpg" alt="" class="watch pointer">
+    <!-- <img src="./watches.jpg" alt="" class="watch pointer"> -->
   </div>
 
   <div class="flex mid space">
@@ -76,7 +94,7 @@
   </div>
 
   <div class="mid-col-2 flex space">
-    <div class="card space">
+    <div class="card ">
       <span id="freedom">
         <p class="break"> Nike Sport Band. Light.Flexible. Breathable.</p>
       </span>
