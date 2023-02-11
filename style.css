@@ -96,16 +96,17 @@ input:focus {
 #active {
   display: none;
   height: 2 rem;
-  width: 10rem;
+  width: 8rem;
   margin-top: 1.5rem;
   position: absolute;
   background-color: rgb(237, 236, 235);
   box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
   -webkit-box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
   -moz-box-shadow: 0px 10px 22px 1px rgba(0, 0, 0, 0.29);
-  /* padding: 1rem; */
+  padding: 1rem;
   right: 0;
   margin-right: 5rem;
+  border-radius: 10px;
 
 }
 
