@@ -40,18 +40,18 @@
   .container {
     display: flex;
     width: 100vw;
-    background-size: 20rem;
+    background-size: 23rem;
     background-position: right;
-    background-position-x: 13rem;
+    background-position-x: 11rem;
     background-position-y: 2rem;
-    height: 40vh;
+    height: 23rem;
     justify-content: space-between;
     align-items: center;
 
   }
 
   .container .card {
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
 
   .card {
@@ -62,7 +62,6 @@
 
   .mid-col-2 .card {
     margin-left: 2rem;
-    margin-right: 3rem;
   }
 
 
@@ -125,7 +124,7 @@
 
   .footer {
     width: 100vw;
-    height: 45vh;
+    height: 20rem;
     background-size: cover;
     margin-top: 5rem;
   }
