@@ -256,7 +256,7 @@ input:focus {
 }
 
 .left {
-  /* right: 0; */
+  right: 0;
   position: absolute;
   padding: 15rem 20rem 0 0;
 }
